@@ -6,6 +6,9 @@ apply from: 'https://raw.github.com/gretty-gradle-plugin/gretty/master/pluginScr
 
 repositories {
     jcenter()
+    maven {
+        url "http://maven.vaadin.com/vaadin-addons"
+    }
 }
 
 dependencies {
@@ -15,7 +18,7 @@ dependencies {
 	compile 'com.vaadin:vaadin-client-compiled:8.4.3'
 	compile 'com.vaadin:vaadin-themes:8.4.3'
 
-	//compile 'com.vaadin:vaadin-testbench:4.1.0'
+	compile 'com.vaadin:vaadin-testbench:4.1.0'
 	//compile 'com.vaadin:vaadin-testbench-api:8.4.3'
 
     testCompile 'junit:junit:4.12'
