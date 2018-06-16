@@ -1,0 +1,23 @@
+---
+Test
+---
+|import|
+|org.jg.vaadin.fitnesse.fixture|
+
+!path /Users/jacek/dev/workspace/vaadin-testbench-fitnesse/bin/main
+!path /Users/jacek/dev/workspace/vaadin-testbench-fitnesse/build/classes/java/main
+!path /Users/jacek/dev/workspace/vaadin-testbench-fitnesse/build/libs/*
+!path /Users/jacek/dev/workspace/vaadin-testbench-fitnesse/build/libs/runtime/*
+
+
+
+!define TEST_SYSTEM {slim} 
+
+
+|user adds a text  |
+|text|welcome text?|
+|jack|[Thanks jack, it works!]|
+|jack2|[Thanks jack, it works!, Thanks jack2, it works!]|
+|jack3|[Thanks jack, it works!, Thanks jack2, it works!, Thanks jack3, it works!]|
+|jack4|[Thanks jack, it works!, Thanks jack2, it works!, Thanks jack3, it works!, Thanks jack4, it works!]|
+

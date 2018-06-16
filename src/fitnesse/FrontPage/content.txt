@@ -1,3 +1,9 @@
+!4 Testbench Example Specifications
+
+|  | '''Specification''' |
+|1 | [[Welcome Text Spec][.WelcomeTextSpec]]|
+
+
 !1 Welcome to [[FitNesse][FitNesse.FitNesse]]!
 !3 ''The fully integrated stand-alone acceptance testing framework and wiki.''
 # Here is a good place to add your first page (WikiWord). For example, MyTopLevelApplicationPage
